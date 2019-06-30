@@ -1,0 +1,1 @@
+cmd_/home/kimminwoo/week3/mymodule.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/kimminwoo/week3/mymodule.ko /home/kimminwoo/week3/mymodule.o /home/kimminwoo/week3/mymodule.mod.o ;  true
